@@ -1,0 +1,14 @@
+{
+  "name": "dockered-hermes",
+  "version": "0.1.0",
+  "description": "CLI tool for managing multiple isolated Hermes Agent instances using Podman containers",
+  "bin": {
+    "dockered-hermes": "src/cli.js"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "js-yaml": "^4.1.0",
+    "dotenv": "^16.0.0",
+    "chalk": "^4.1.0"
+  }
+}
