@@ -85,6 +85,11 @@ Steps:
 - `js-yaml` — parse `profiles.yaml`
 - `dotenv` — parse `./.env` for variable interpolation fallback
 - `chalk` — colored terminal output
+- [OpenSpec](https://github.com/anomalyco/opencode) — spec-driven change management workflow
+
+## OpenSpec Workflow
+
+This project uses [OpenSpec](https://github.com/anomalyco/opencode) for structured, spec-driven development. Features are planned as changes that go through a cycle of **propose → explore → design → tasks → implement → archive**. Completed changes are stored in `openspec/changes/archive/` with date-prefixed directories.
 
 ## Development Commands
 
